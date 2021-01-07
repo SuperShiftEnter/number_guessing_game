@@ -16,9 +16,9 @@ while is_correct == False:
             print(F"{user_input} is out of bounds (1 - 100)")
         else:
             if int(user_input) > random_number:
-                print("Please enter a lower number: ")
+                print("Please enter a lower number.")
             else:
-                print("Please enter a higher number: ")
+                print("Please enter a higher number.")
     except ValueError:
         print(F"{user_input} is not a valid number.")
         continue
