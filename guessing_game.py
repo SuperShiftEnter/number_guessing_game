@@ -4,7 +4,7 @@ random_number = rnd.randint(1, 100)
 is_correct = False
 
 # remove comment to print random number
-print(random_number)
+# print(random_number)
 
 print("Please guess a full number between 1 and 100. \nIf you wish to stop playing, press Ctrl+C.")
 
